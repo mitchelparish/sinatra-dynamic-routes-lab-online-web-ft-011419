@@ -29,9 +29,9 @@ class App < Sinatra::Base
     operation = params[:operation]
 
     if operation == "add"
-      params[:number1].to_i + params[:number2].to-I
+      params[:number1].to_i + params[:number2].to_i
 
-    
+
   end
 
 
