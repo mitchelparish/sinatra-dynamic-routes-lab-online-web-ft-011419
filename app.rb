@@ -38,10 +38,6 @@ class App < Sinatra::Base
         (number1 / number2).to_s
       when "multiple"
         (number1 * number2).to_s
-    end 
-  end 
-
-
-    
-
+    end
+  end
 end
